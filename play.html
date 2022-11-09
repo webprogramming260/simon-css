@@ -36,74 +36,35 @@
       </nav>
     </header>
 
-    <main class="container-fluid bg-secondary text-center">
-      <div>
-        Count: <span id="count">0</span>
-      </div>
-
-      <div>
-        <button class="btn btn-primary">Start</button>
-      </div>
-
-      <div>
-        <table>
-          <tr>
-            <td>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 100 100"
-                  height="100"
-                  width="100"
-                >
-                  <!-- SVG
-                    M move <to x,y>
-                    Q quadratic curve <control point x,y> <to x,y>
-                -->
-                  <path d="M 95,5 95,95 5,95 Q 5,5 95,5" fill="green" />
-                </svg>
-              </button>
-            </td>
-            <td>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 100 100"
-                  height="100"
-                  width="100"
-                >
-                  <path d="M5,5 5,95 95,95 Q 95,5 5,5" fill="red" />
-                </svg>
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 100 100"
-                  height="100"
-                  width="100"
-                >
-                  <path d="M5,5 95,5 95,95 Q 5,95 5,5" fill="blue" />
-                </svg>
-              </button>
-            </td>
-            <td>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 100 100"
-                  height="100"
-                  width="100"
-                >
-                  <path d="M95,5 5,5 5,95 Q 95,95 95,5" fill="yellow" />
-                </svg>
-              </button>
-            </td>
-          </tr>
-        </table>
+    <main class="bg-secondary">
+      <div class="game">
+        <div class="button-container">
+          <button class="button-top-left"></button>
+          <button class="button-top-right"></button>
+          <button class="button-bottom-left"></button>
+          <button class="button-bottom-right"></button>
+          <div class="controls center">
+            <h1 class="control">Simon<sup>&reg;</sup></h1>
+            <div class="control">Count</div>
+          </div>
+        </div>
+        <!-- <div class="spacer-vertical center-x"></div>
+        <div class="spacer-horizontal center-y"></div>
+        <div class="middle center-both">
+          <h1>Simon<sup>&reg;</sup></h1>
+          <div class="center-controls center-x">
+            <div class="control control-lg">
+              <div class="count-display">
+                <span class="center-both"></span>
+              </div>
+              <label>Count</label>
+            </div>
+            <div class="control control-sm">
+              <button class="start"></button>
+              <label>Start</label>
+            </div>
+          </div>
+        </div> -->
       </div>
     </main>
 
