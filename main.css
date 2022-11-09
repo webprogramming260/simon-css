@@ -29,8 +29,8 @@ footer {
   width: 80vw;
   height: 80vw;
   position: absolute;
-  min-width: 300px;
-  min-height: 300px;
+  min-width: 350px;
+  min-height: 350px;
   max-width: 1000px;
   max-height: 1000px;
 }
@@ -74,8 +74,8 @@ footer {
 .controls {
   position: absolute;
   border-radius: 50%;
-  width: 20vh;
-  height: 20vh;
+  width: 200px;
+  height: 200px;
   background-color: black;
   padding: 2em;
   display: flex;
@@ -85,8 +85,9 @@ footer {
 }
 
 .game-name {
-    font-size: xx-large;
+    font-size: 2em;
     font-weight: bold;
+    margin-bottom: .5em;
 }
 
 .score {
