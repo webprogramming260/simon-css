@@ -77,28 +77,35 @@ footer {
   width: 20vh;
   height: 20vh;
   background-color: black;
-  display:flex;
+  padding: 2em;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
 }
 
-.control {
-    /* position: absolute; */
+.game-name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.score {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: red;
+    cursor: default;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid thin rgb(117, 0, 0);
+    background-color: #300;
 }
 
 .center {
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  }
-/* 
-  .center-x {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .center-y {
-    top: 50%;
-    transform: translateY(-50%);
-  } */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
