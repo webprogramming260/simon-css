@@ -5,7 +5,7 @@ The addition of CSS makes our applicaiton visually appeally and adds intuative u
 
 The application has a login (home), game play, high scores, and about page. Each page contains a header that provides navigation between the pages, and a footer that references the source repository.
 
-You can view this application running here: [Example Simon HTML](https://github.com/webprogramming260/simon-css)
+You can view this application running here: [Example Simon CSS](https://github.com/webprogramming260/simon-css)
 
 ## Study this code
 First, get familiar with what this code teaches.
