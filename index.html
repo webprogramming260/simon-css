@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon</title>
 
-    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link rel="stylesheet" href="main.css" />
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -16,10 +16,10 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="bg-dark text-light">
     <header class="container-fluid">
       <!-- Navigation elements -->
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -39,17 +39,16 @@
       </nav>
     </header>
 
-    <main class="container-fluid">
+    <main class="container-fluid bg-secondary text-center">
       <h1>Welcome</h1>
       <p>Login to play</p>
       <form method="get" action="play.html">
-        <label for="name">Name</label>
         <input type="text" id="name" placeholder="Your name here" />
         <button type="submit">Login</button>
       </form>
     </main>
 
-    <footer class="text-center text-lg-start bg-light text-muted fixed-bottom">
+    <footer class="text-lg-start bg-dark text-dark text-muted fixed-bottom">
       <div class="container-fluid">
         <a
           class="me-4 text-reset"

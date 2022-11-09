@@ -1,5 +1,22 @@
-* {
+/* * {
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
+header {
+  flex: 0 0 100px;
+}
+
+main {
+  flex: 1 0 calc(100vh - 180px);
+  padding: 2em 0;
+}
+
+footer {
+  flex: 0 0 80px;
+}
