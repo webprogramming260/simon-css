@@ -39,4 +39,4 @@ First, get familiar with what this code teaches.
 - 30% - Visually appealing interface
 - 10% - Use of a CSS framework such as Bootstrap
 - 10% - At least four Git commits for the project (Initial, milestone, ..., milestone, final)
-- 10% - Notes in your GitHub Pages README.md about what you have learned
+- 10% - Notes in your GitHub repository README.md about what you have learned
