@@ -13,6 +13,9 @@ You can view this application running here: [Example Simon CSS](https://simon-cs
 First, get familiar with what this code teaches.
 
 - Clone this repository to your development machine.
+  ```sh
+  git clone https://github.com/webprogramming260/simon-css.git
+  ```
 - Review the code and get comfortable with everything it represents.
 - View the code in your browser by hosting it using the VSCode LiveServer extension.
 - Make modifications to the code as desired. Experiment and see what happens.
@@ -24,8 +27,8 @@ First, get familiar with what this code teaches.
 - In your `simon-css` directory create your own version of the project. Refer to the example class project repository if you get stuck.
 - Set the footer link to point to your code repository. (e.g. https://github.com/yourname/simon-css)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the example class project. Take some time to understand how it works. This is the same script that you used for `simon-html`, you will just provide a different service name.
-  ```
+- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the [example class project](https://github.com/webprogramming260/simon-css/blob/main/deploy.sh). Take some time to understand how it works. This is the same script that you used for `simon-html`, you will just provide a different service name.
+  ```sh
   ./deploy.sh -k <yourpemkey> -h <yourdomain> -s simon-css
   ```
 - Update your `simon-css` repository README.md to record and reflect on what you learned.
