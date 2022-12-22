@@ -1,8 +1,8 @@
 # simon-css
 
-This application milestone demonstrates the use of basic CSS for styling and a responsive design.
+This application deliverable demonstrates the use of basic CSS for styling and a responsive design.
 
-The addition of CSS makes our application visually appealing and adds intuitive user interface elements, but it is still not functional due to the lack of interactivity. We will add that in the next milestone when we introduce JavaScript.
+The addition of CSS makes our application visually appealing and adds intuitive user interface elements, but it is still not functional due to the lack of interactivity. We will add that in the next deliverable when we introduce JavaScript.
 
 The application has a login (home), game play, high scores, and about page. Each page contains a header that provides navigation between the pages, and a footer that references the source repository. The bootstrap CSS framework is used for the navigation header.
 
