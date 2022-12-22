@@ -1,8 +1,8 @@
 # simon-css
 
-This demonstrates the use of basic CSS for styling and a responsive design.
+This application milestone demonstrates the use of basic CSS for styling and a responsive design.
 
-The addition of CSS makes our application visually appealing and adds intuitive user interface elements, but it is still not functional due to the lack of interactivity. We will add that in the next stage when we introduce JavaScript.
+The addition of CSS makes our application visually appealing and adds intuitive user interface elements, but it is still not functional due to the lack of interactivity. We will add that in the next milestone when we introduce JavaScript.
 
 The application has a login (home), game play, high scores, and about page. Each page contains a header that provides navigation between the pages, and a footer that references the source repository. The bootstrap CSS framework is used for the navigation header.
 
@@ -19,7 +19,7 @@ Get familiar with what the example code teaches.
   ```
 
 - Review the code and get comfortable with everything it represents.
-- View the code in your browser by hosting it using the VSCode LiveServer extension.
+- View the code in your browser by hosting it using the VS Code Live Server extension.
 - Make modifications to the code as desired. Experiment and see what happens.
 
 ## Make your own version
