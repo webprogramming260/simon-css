@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="play.css" />
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -40,9 +41,15 @@
 
     <main class="bg-secondary">
       <div class="players">
-        Player:
+        Player
         <span class="player-name">Mystery player</span>
+        <div id="player-messages">
+          <div class="event"><span class="player-event">Linus</span> scored 377</div>
+          <div class="event"><span class="player-event">Linus</span> started a new game</div>
+          <div class="event"><span class="system-event">game</span> connected</div>
+        </div>
       </div>
+
       <div class="game">
         <div class="button-container">
           <button class="button-top-left"></button>
@@ -61,11 +68,7 @@
     <footer class="bg-dark text-dark text-muted">
       <div class="container-fluid">
         <span class="text-reset">Author Name(s)</span>
-        <a
-          class="text-reset"
-          href="https://github.com/webprogramming260/simon-css"
-          >Source</a
-        >
+        <a class="text-reset" href="https://github.com/webprogramming260/simon-css">Source</a>
       </div>
     </footer>
   </body>
