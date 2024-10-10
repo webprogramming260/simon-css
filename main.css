@@ -28,6 +28,10 @@ menu {
   list-style: none;
 }
 
+.button-depress:active {
+  transform: scale(0.9);
+}
+
 .navbar-brand {
   padding-left: 0.3em;
   border-bottom: solid rgb(182, 182, 182) thin;

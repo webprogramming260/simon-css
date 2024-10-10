@@ -117,3 +117,25 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
+/* Creates an animation to the simon buttons increasing their size and flashing them a white color */
+
+.button-container > button:active {
+  animation: simon-button 0.2s;
+}
+
+@keyframes simon-button {
+  0% {
+    transform: scale(1);
+    background-color: currentColor;
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: aliceblue;
+  }
+  100% {
+    transform: scale(1);
+    background-color: currentColor;
+  }
+  
+}
